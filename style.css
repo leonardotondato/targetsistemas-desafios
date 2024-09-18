@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    height: 600px;
+    width: 950px;
+    box-shadow: 1px 1px 10px 1px gray;
+    border-radius: 5px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    padding: 30px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-nav {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.007), rgb(156, 156, 156), rgba(0, 0, 0, 0.007));
+}
+
+.quest-page {
+    padding: 0 10px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 0 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.quest-page > a {
+    text-decoration: none;
+    color: white;
+}
+
+.active-btn {
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.active-btn > a {
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.intro > h2 {
+    font-size: 1.8em;
+}
+
+.body-text {
+    margin: 5px 0;
+    font-size: 1.3em;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-text {
+    margin: 2px;
+}
+
+.exercicio {
+    width: 650px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resolv{
+    display: flex;
+    height: 30%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.val {
+    width: 50%;
+    text-align: center;
+}
+
+.val > input {
+    height: 30px;
+    width: 50px;
+}
+
+.result {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result > p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.res-value {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.sub-btn {
+    height: 40px;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.info-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
