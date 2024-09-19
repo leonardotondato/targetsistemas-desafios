@@ -6,6 +6,8 @@
     <title>Exercício 1</title>
 
     <link rel="stylesheet" href="../style.css">
+
+    <script src="../scripts/quest1.js"></script>
 </head>
 <body>
     
@@ -50,6 +52,8 @@
                         Imprimir(SOMA);
                     </p>
                     <p>Ao final do processamento, qual será o valor da variável SOMA?</p>
+
+                    <p class="warning-one">Se o valor inserido no campo abaixo for 0 (zero) ou negativo, será considerado o valor do enunciado (indice = 13)</p>
                 </div>
 
                 <div class="resolv">
@@ -65,13 +69,13 @@
 
                         <p>Resultado</p>
 
-                        <span class="res-value">91</span>
+                        <span id="res-value">91</span>
 
                     </div>
 
                 </div>
 
-                <input class="sub-btn" type="submit" nome="submit" onclick="">
+                <input class="sub-btn" type="submit" nome="submit" onclick="calcSoma()">
 
             </main>
 

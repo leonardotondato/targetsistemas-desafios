@@ -96,18 +96,24 @@ body {
 .exercicio {
     width: 650px;
     height: 350px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .resolv{
     display: flex;
     height: 30%;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.warning-one {
+    color: red;
+    font-style: italic;
 }
 
 .val {
@@ -134,7 +140,12 @@ body {
     font-size: 1.2em;
 }
 
-.res-value {
+#res-value {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#res-valueTwo {
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -142,8 +153,11 @@ body {
 .sub-btn {
     height: 40px;
     width: 80px;
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: lightgray;
+    box-shadow: 1px 1px 5px 0.3px black;
 }
 
 .info-3 {
@@ -151,4 +165,66 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.info-3-1 {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-3-1 > p {
+    margin: 0 15px;
+}
+
+.q4Result {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.q4Result > h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.percents {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.pTitles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pTitles > p {
+    margin: 0 50px;
+}
+
+#pValues {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pValues > span {
+    margin: 0 50px;
+}
+
+.textBox {
+    width: 50%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.reverseBox {
+    width: 50%;
+    text-align: center;
+    font-size: 1.6em;
 }
